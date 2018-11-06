@@ -1,5 +1,5 @@
 __author__ = 'Kacper Adach'
 
-__version__='0.4'
+__version__='0.5'
 
-from GetPlayerDKScores import *
+from NFL_Draftkings.GetPlayerDKScores import *

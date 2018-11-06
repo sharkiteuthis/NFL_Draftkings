@@ -1,4 +1,4 @@
-from constants import OFFENSIVE_SCORING_MULTIPLIERS, DEFENSIVE_SCORING_MULTIPLIERS
+from NFL_Draftkings.constants import OFFENSIVE_SCORING_MULTIPLIERS, DEFENSIVE_SCORING_MULTIPLIERS
 
 def convert_to_DK(data):
     if data['position'] == 'DEF':

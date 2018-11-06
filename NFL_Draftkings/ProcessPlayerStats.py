@@ -1,4 +1,4 @@
-from constants import USEFUL_DATA, VALID_POSITIONS
+from NFL_Draftkings.constants import USEFUL_DATA, VALID_POSITIONS
 
 def process_json_data(data, name=None, team=None):
     data = _remove_non_offensive_players(data)
