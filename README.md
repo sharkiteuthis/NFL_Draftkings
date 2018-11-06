@@ -33,6 +33,14 @@ pip install NFL_Draftkings
 {u'position': u'WR', u'stats': 32.8, u'name': u'DeAndre Hopkins', u'teamAbbr': u'HOU'}] 
 ```
 
+## Running Tests
+```
+docker build -t nfldk27 -f Dockerfile27 .
+docker run --rm nfldk27
+docker build -t nfldk36 -f Dockerfile36 .
+docker run --rm nfldk27
+```
+
 ## Notes
 
 The stats key in the returned dictionaries is the amount of Draftkings points that player scored in the defined period. All methods have position, team, week and season arguments to specify searches as much as needed.
